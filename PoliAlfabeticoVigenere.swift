@@ -6,7 +6,10 @@ class PoliAlfabeticoVigenere {
     private let clave: String
 
     init(clave: String) {
-        self.ALFABETO = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "Ñ", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
+        self.ALFABETO = ["A", "B", "C", "D", "E", "F", "G", "H",
+                         "I", "J", "K", "L", "M", "N", "Ñ", "O", 
+                         "P", "Q", "R", "S", "T", "U", "V", "W",
+                          "X", "Y", "Z"]
         
         if clave.isEmpty {
             fatalError("La clave no puede estar vacía.")
